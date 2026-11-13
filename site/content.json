@@ -1,79 +1,123 @@
 {
   "$schema": "./content.schema.json",
   "language": "en",
-  "name": "Ada Example",
-  "headline": "Frontend developer who likes fast, accessible web pages",
-  "photo": {
-    "src": "assets/avatar.svg",
-    "alt": "Ada Example's avatar: a simple drawing of a head and shoulders in two shades of grey"
-  },
-  "pitch": "I build small, fast websites that everyone can use, and I explain every choice in plain words.",
-  "highlights": [
-    { "text": "Every page I look after scores 100 for accessibility in Lighthouse" },
-    { "text": "Five years of teaching maths: I make technical choices easy to follow" },
-    { "text": "Two open-source projects on GitHub", "url": "https://github.com/octocat" }
-  ],
+  "name": "Rustam Kuzmani",
+  "headline": "Senior Backend Developer",
+  "pitch": "Developer with more than 10 years experience in backend, frontend and command-line development.",
   "availability": {
-    "text": "Open to junior frontend roles from January 2027.",
+    "text": "Available for backend developer roles.",
     "actionLabel": "Write to me",
-    "actionUrl": "mailto:ada@example.com"
+    "actionUrl": "mailto:rustam@kuzmani.ru"
   },
-  "location": { "city": "Milan", "country": "Italy", "timeZone": "Europe/Rome" },
+  "location": {
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "timeZone": "Asia/Almaty"
+  },
   "languages": [
-    { "name": "English", "level": "native" },
-    { "name": "Italian", "level": "B2" }
+    { "name": "Russian", "level": "native" },
+    { "name": "English", "level": "B2" },
+    { "name": "Kazakh", "level": "A1" }
   ],
   "bio": [
-    "I build small, fast websites and the tools around them. Before I wrote code, I taught maths, so I still enjoy explaining things simply.",
-    "This is a sample portfolio of a fictional person. Replace it with your own story."
-  ],
-  "projects": [
-    {
-      "title": "Tide Tables",
-      "description": "A tiny web app that shows today's tides for a chosen harbour, built with plain HTML, CSS and JavaScript.",
-      "github": "https://github.com/octocat/Hello-World"
-    },
-    {
-      "title": "Reading Log",
-      "description": "A static site that lists the books I read, generated from one JSON file.",
-      "github": "https://github.com/octocat/Spoon-Knife",
-      "url": "https://octocat.github.io/Spoon-Knife/"
-    }
+    "Accomplished and innovative professional with more than 10 years of experience in backend, frontend and command-line development.",
+    "Experienced in designing and building high-load trading systems, cryptocurrency exchange robots, CRM/ERP platforms, and microservices architecture, with the ability to collaborate and mentor developers on best practices."
   ],
   "links": [
-    { "label": "GitHub", "url": "https://github.com/octocat" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ada-example" },
-    { "label": "Email", "url": "mailto:ada@example.com" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/rustam-kuzmani" },
+    { "label": "Email", "url": "mailto:rustam@kuzmani.ru" }
   ],
   "cv": {
     "experience": [
       {
-        "role": "Junior Frontend Developer",
-        "organization": "Example Studio",
-        "start": "2024",
+        "role": "Backend developer",
+        "organization": "Freedom Finance (Freedom Broker), Limassol, Cyprus",
+        "start": "2023",
         "end": "present",
-        "summary": "Build and maintain marketing sites; brought every page to a Lighthouse accessibility score of 100."
+        "summary": "Development of stock trading platform and administration panel using PHP (Zend), PostgreSQL, Redis, Docker, Kafka, JavaScript."
       },
       {
-        "role": "Maths Teacher",
-        "organization": "Example Secondary School",
+        "role": "Backend developer, founder",
+        "organization": "TOO Al Maak, Almaty, Kazakhstan",
+        "start": "2022",
+        "end": "2023",
+        "summary": "Development of trading and arbitration robots for cryptocurrency exchanges, crypto wallets, trading terminals, Telegram bots, and CRM/ERP systems."
+      },
+      {
+        "role": "Senior PHP developer",
+        "organization": "IPChain, Moscow, Russia",
         "start": "2019",
-        "end": "2024",
-        "summary": "Taught maths to students aged 11 to 16 and ran the after-school coding club."
-      }
-    ],
-    "education": [
-      {
-        "title": "Web Development Bootcamp",
-        "organization": "Example Academy",
-        "year": "2023"
+        "end": "2022",
+        "summary": "Development of CRM system for copyright contracts, payments, charges, and analytical data slices using GoLang, PHP, Laravel, PostgreSQL."
       },
       {
-        "title": "BSc Mathematics",
-        "organization": "Example University",
-        "year": "2018"
+        "role": "Senior PHP developer",
+        "organization": "Polygant, Moscow, Russia",
+        "start": "2019",
+        "end": "2019",
+        "summary": "Creation of cryptocurrency applications, trading bots, and integration with external API services."
+      },
+      {
+        "role": "Full-Stack developer",
+        "organization": "Individual business, Moscow, Russia",
+        "start": "2014",
+        "end": "2019",
+        "summary": "Development of CRM systems, telemetry for coffee machines (Starbucks, McDonald's, Gazprom), and management of remote dev team."
+      },
+      {
+        "role": "Full-Stack developer",
+        "organization": "Xsoft, Moscow, Russia",
+        "start": "2013",
+        "end": "2014",
+        "summary": "Development of web sites, CRM systems, and e-commerce platforms."
+      },
+      {
+        "role": "Full-Stack developer",
+        "organization": "Freelance",
+        "start": "2009",
+        "end": "2013",
+        "summary": "Remote full-stack site development and enterprise management CRM/ERP systems."
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git"]
-  }
+    "skills": [
+      "PHP",
+      "Symfony",
+      "Laravel",
+      "Golang",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "MongoDB",
+      "Docker",
+      "Kubernetes",
+      "Kafka",
+      "RabbitMQ",
+      "JavaScript",
+      "Vue.js",
+      "Gitlab CI/CD",
+      "Grafana",
+      "Prometheus",
+      "Elasticsearch",
+      "gRPC",
+      "AI API integration"
+    ]
+  },
+  "builtAt": {
+    "event": "DevFest Almaty '26",
+    "date": "2026-11-13"
+  },
+  "events": [
+    {
+      "name": "DevFest Almaty '26",
+      "date": "2026-11-13",
+      "city": "Almaty",
+      "role": "attendee",
+      "sessions": [
+        {
+          "type": "workshop",
+          "title": "AI-Native Web Development, Hands-On"
+        }
+      ]
+    }
+  ]
 }

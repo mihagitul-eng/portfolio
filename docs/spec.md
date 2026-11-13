@@ -1,27 +1,33 @@
 # Site spec
 
-Written by the Analyst from: interview. This is the spec of the sample person, Ada Example, who is fictional. The Analyst role replaces it with yours.
+Written by the Analyst from: CV.
 
 ## Who
-Ada Example, frontend developer who likes fast, accessible web pages.
+Rustam Kuzmani, Senior Backend Developer.
+
+## Goal
+Help find a job as a senior backend developer.
 
 ## For whom
-Recruiters and teams hiring a junior frontend developer.
+(a guess) Tech leads, engineering managers, and recruiters hiring senior backend developers for high-load platforms, fintech, or distributed systems.
 
 ## What a visitor should do
-Look at the projects on GitHub, then write an email.
+(a guess) Reach out via email (`rustam@kuzmani.ru`) or connect on LinkedIn to schedule an interview.
 
 ## Language
 English (en).
 
 ## Sections
-- Bio: two paragraphs.
-- Projects: two.
-- Links: GitHub, LinkedIn, email.
-- CV: experience, education and skills.
+- First screen: the pitch, availability ("Available for backend developer roles."), location (Almaty, Kazakhstan), and languages (Russian native, English B2, Kazakh A1).
+- Bio: two paragraphs highlighting 10+ years in backend, fintech, trading systems, and team mentoring.
+- Projects: none yet (skipped).
+- Links: LinkedIn and Email.
+- CV: experience (7 positions from 2009 to present) and skills (20 technical skills).
+- Certifications and events: 1 event (DevFest Almaty '26 workshop).
 
 ## Left out on purpose
-Nothing.
+- Phone number (+7 705 216-07-98) from CV: left out to prevent unsolicited calls unless explicitly requested.
+- Projects section: omitted for now since no public GitHub repositories were provided.
 
 ## Later
-A blog, as an optional module.
+Add public GitHub projects or repository links if desired.

@@ -1,63 +1,62 @@
 # Design brief
 
-Source: the default brief that ships with the template (no Stitch design).
-Mood: calm, warm, precise. A quiet page like a well-set book: the person's words and work come first, not the decoration.
+Source: the interview, without Stitch
+Mood: friendly, cold, neon. Technical precision with a cold neon glow: code-editor metadata and dot-grid structure paired with clean, spacious layout.
 
 ## Style
 
-- Style: Classic.
-- Feel: calm, warm, precise.
-- Personal detail: none. The default design has no personal detail; the Designer's interview gives you yours.
-- Motion: almost none. When the visitor prefers reduced motion, nothing moves.
+- Style: Technical, with a Modern touch: generous whitespace and borderless list structure.
+- Feel: friendly, cold, neon.
+- Personal detail: a subtle mountain ridge divider between sections, inspired by mountain hiking in Almaty.
+- Motion: crisp and functional: state changes, subtle glowing hover shifts. When the visitor prefers reduced motion, nothing moves.
 
 ## Colours
 
 | Token | Light | Dark | Used for |
 |---|---|---|---|
-| background | #f7f3ec | #1b1714 | page background: warm paper |
-| surface | #eee7dc | #26201c | the photo's backdrop, the rare box |
-| text | #231e1a | #eee6dc | headings and body text |
-| muted | #675c52 | #b3a698 | headline under the name, dates, captions, hairlines |
-| accent | #a8402f | #f0937d | links, focus ring: ink red |
-| on-accent | #ffffff | #1b1714 | text on an accent-coloured button |
+| background | #f6f7f9 | #0d1117 | page background: cool white, with a faint dot grid |
+| surface | #f1f3f6 | #161b22 | cards |
+| text | #161b22 | #e6edf3 | headings and body text |
+| muted | #57606a | #9198a1 | dates, labels, file names, borders |
+| accent | #0066cc | #38bdf8 | links, focus ring: neon blue |
+| on-accent | #ffffff | #0d1117 | text on an accent-coloured button |
 
 ## Type
 
 | Role | Font | Size | Weight |
 |---|---|---|---|
-| headings | "Newsreader", Georgia, "Times New Roman", serif | name 2.75rem, section 1.5rem, project 1.25rem | 500 |
-| body | "Literata", Georgia, "Times New Roman", serif | 1.0625rem, line height 1.65 | 400 |
-| details | "Literata", Georgia, "Times New Roman", serif | dates 0.9375rem | 400 |
+| headings | "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace | name 2rem, section 1.125rem, card 1rem | 600 |
+| body | "IBM Plex Sans", system-ui, sans-serif | 1rem, line height 1.6 | 400 |
+| details | "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace | dates and labels 0.875rem | 400 |
 
 ## Shapes
 
-- Corner radius: none; only the photo is round.
-- Borders: hairlines, 1px in the muted colour thinned out, between the sections and between the projects.
+- Corner radius: none: square corners.
+- Borders: 1px in the muted colour thinned out, around cards and tags.
 - Shadows: none.
 
 ## Layout
 
-- One narrow column, at most 38rem wide, centred, text flush left, with 1.25rem space at the sides on phones.
-- 4rem between sections, with a hairline between them; 1.5rem between items in a list.
-- Projects: a list, one below the other, separated by hairlines; no cards and no columns.
+- One column, at most 46rem, centred, with 1.25rem space at the sides on phones; a faint dot grid behind the page.
+- 3rem between sections, 1rem between items in a list.
+- Experience & timeline: clean vertical timeline with monospace dates.
 
 ## Components
 
-- Links: accent colour, underlined a little below the text; the underline disappears on hover, and keyboard focus shows a 2px accent ring.
-- Projects: title as a project heading, one sentence, then the links to the code and the live site as text links.
-- Skills: one plain line, separated by commas.
-- Section headings: plain text in the heading font; the hairline above the section is the only line.
-- The headline under the name: in the heading font's italic, in the muted colour.
+- Links: accent colour, underlined; keyboard focus shows a 2px neon accent ring.
+- Cards: surface background, 1px border, 1.25rem inner space, the title in the heading font.
+- Skills: a monospace list written like an array: [ "PHP", "GoLang", "PostgreSQL" ].
+- Section headings: in the heading font, with "// " before them as decoration.
 
 ## Signature
 
-- Move: Typographic polish
-- Guide: guides/visual-design/improve-text-layout-and-legibility.md
-- Where: every heading and paragraph: headings in even lines, no lonely last word in a paragraph, old-style numbers in the text.
+- Move: Other cards step back on hover and focus
+- Guide: guides/css/child-state-based-styling.md
+- Where: the cards: while one is pointed at or focused, the others step back.
 
 ## Sections
 
-1. `bio`: the name, the headline and the bio.
-2. `projects`: the sample person looks for a job, so the projects lead.
-3. `links`: GitHub, LinkedIn and email.
-4. `cv`: experience, education and skills.
+1. `bio`: the name, the headline, pitch, availability, and the bio.
+2. `links`: LinkedIn and email links for recruiters to reach out.
+3. `cv`: experience timeline and technical skills list.
+4. `events`: workshops and conferences attended.
